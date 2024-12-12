@@ -1,0 +1,32 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "SoftwareSourceCode",
+    "name": "CSV2RDF",
+    "description": "A tool to convert data tables (CSV/TSV) to RDF format",
+    "url": "https://github.com/stefanches7/csv2rdf",
+    "version": "0.1.0",
+    "author": [
+        {
+        "@type": "Product",
+        "name": "Github Copilot"
+        },
+    {
+      "@type": "Person",
+      "name": "Stefan Dvoretskii",
+      "email": "stefan.dvorezky@gmail.com"
+    }],
+    "programmingLanguage": "Python",
+    "license": "https://opensource.org/licenses/MIT",
+    "codeRepository": "https://github.com/stefanches7/csv2rdf",
+    "keywords": ["RDF", "CSV", "TSV", "Data Conversion", "Semantic Web"],
+    "softwareRequirements": [
+      "Python 3.6+",
+      "pandas",
+      "rdflib",
+      "numpy"
+    ],
+    "applicationCategory": "Data Conversion Tool",
+    "dateCreated": "2024-12-12",
+    "dateModified": "2024-12-12",
+    "operatingSystem": "OS Independent"
+  }
